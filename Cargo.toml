@@ -1,10 +1,11 @@
 [package]
 description = "Parse a blogger backup.xml file into posts with comments."
+documentation = "https://docs.rs/parse-blogger-backup-xml"
 edition = "2021"
 license = "MIT"
 name = "parse-blogger-backup-xml"
 repository = "https://github.com/dhbradshaw/parse-blogger-backup-xml"
-version = "0.1.2"
+version = "0.1.3"
 
 [dependencies]
 # Handle timestamps
