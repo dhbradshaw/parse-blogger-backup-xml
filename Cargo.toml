@@ -2,11 +2,13 @@
 description = "Parse a blogger backup.xml file into posts with comments."
 edition = "2021"
 license = "MIT"
-name = "blogger-parser"
-repository = "https://github.com/dhbradshaw/blogger-parser"
+name = "parse-blogger-backup-xml"
+repository = "https://github.com/dhbradshaw/parse-blogger-backup-xml"
 version = "0.1.2"
 
 [dependencies]
+# Handle timestamps
+chrono = "0.4.19"
 
 # Parse xml
 quick-xml = "0.22.0"
