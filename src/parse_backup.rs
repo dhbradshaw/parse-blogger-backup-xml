@@ -47,7 +47,7 @@ const POST_KIND: &[u8] = b"http://schemas.google.com/blogger/2008/kind#post";
 const SETTINGS_KIND: &[u8] = b"http://schemas.google.com/blogger/2008/kind#settings";
 const TEMPLATE_KIND: &[u8] = b"http://schemas.google.com/blogger/2008/kind#template";
 
-/// Logic in this crate
+/// Logic in this function:
 /// - finds entries,
 /// - determines whether they are posts or comments, and
 /// - assigns comments to their posts
