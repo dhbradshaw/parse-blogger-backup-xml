@@ -1,2 +1,8 @@
+# Folder to store backup examples to test on.
+/data
+
+# Rust compilation products
 /target
+
+# vscode settings
 /.vscode
